@@ -6,7 +6,7 @@ interface GigabitEthernet0/0  (ou a interface real conectada à rede 98.76.54.0/
  no shutdown
 exit
 
-interface GigabitEthernet0/1  (ou a interface real conectada ao HQ1)
+interfa - ce GigabitEthernet0/1  (ou a interface real conectada ao HQ1)
  ip address 98.76.1.254 255.255.255.0
  no shutdown
 exit
@@ -23,3 +23,5 @@ exit
 
 end
 copy running-config startup-config
+
+switchs - nao sao possiveis addionar ip use o no switchport

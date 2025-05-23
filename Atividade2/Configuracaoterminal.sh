@@ -14,3 +14,7 @@ exec-timeout 15 0 - Define o tempo de inatividade da sessão em 15 minutos e 0 s
 service password-encryption - habilita criptografia das chaves
 username admin secret - cria um usuario com a sua senha
 end - sair e salvar
+
+show ip interface brief - ver o que precisa configurar de ip
+
+muda nome (entrar dentro da VLAN)vlan - name 
